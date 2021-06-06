@@ -1,0 +1,387 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*Page  1 */
+
+.navbar-nav a{
+  font-family: poppins;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: green;
+}
+.navbar-light .navbar-brandd{
+  color: green;
+  font-size: 30px;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: green;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: green;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: green;
+}
+
+.navbar-nav{
+  text-align: center;
+}
+
+.nav-item{
+  margin-right: 30px;
+}
+.nav-link{
+  padding: .3rem 2rem;
+}
+
+.nav-link.active, .nav-link:focus{
+  color: green;
+}
+.navbar-toggler-icon{
+  color: green;
+}
+
+/* .nv{
+  color: green;
+}
+
+.nv:hover{
+  color: blue;
+}
+ */
+
+
+.green-page{
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+}
+
+.page-back{
+  position: relative;
+}
+.cr-workplace-btn{
+  top: 80%;
+  position: absolute;
+  margin-left: 320px;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: Arial;
+color: #ffffff;
+font-size: 20px;
+background: #aa87ff;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+
+.cr-workplace-btn:hover{
+  background: #75d6c6;
+  text-decoration: none;
+}
+
+/*section 2*/
+
+#sec2{
+  margin-top: 100px;
+     height: 100vh;
+     background-size: cover;
+     width: 100%;
+
+     position: relative;
+
+}
+
+.form-container{
+  background-color: yellow;
+  height: 70vh;
+  margin-top: 20px;
+  position: relative;
+}
+
+.sign-up-form{
+  background-color: #fff;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: -13px 21px 6px 12px rgba(0,137,26,0.67);
+-webkit-box-shadow: -33px 36px 4px -6px rgb(0 137 26 / 67%);
+-moz-box-shadow: -13px 21px 6px 12px rgba(0,137,26,0.67);
+
+}
+
+.common-input{
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+form{
+  display: inline-block;
+  text-align: center;
+  z-index: 1;
+  border: 3px solid #f5f5f5;
+}
+.start-free-trial{
+  background:    #722ed1;
+border-radius: 7px;
+width:         350px;
+height:        50px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 17px/50px "Open Sans", sans-serif;
+text-align:    center;
+  text-align:    center;
+  vertical-align: center;
+  margin-top: 20px;
+
+}
+
+.my-form hr{
+  width: 80%;
+margin-left: 30px;
+
+}
+.my-form h2{
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.form-back{
+  z-index: 0;
+  /* box-shadow: 0px 34px 0px 0px #f9f0ff, -34px 34px 0px #f9f0ff, 34px 34px 0px #f9f0ff; */
+  margin: 0 auto;
+  background-color: #9ed0c9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+
+/*Section 3*/
+
+#sec3{
+     margin-top: 100px;
+     height: 100vh;
+     background-size: cover;
+     width: 100%;
+    background-color: #9ed0c9;
+     position: relative;
+}
+
+.sec3-container{
+  /* position: absolute; */
+  height: 90vh;
+  width: 80%;
+  background-color:  #ccfff8;
+  margin: 0 auto;
+}
+
+.sec3-container h1{
+  padding-top: 46px;
+  padding-left: 422px;
+}
+
+.sec3-container input{
+    margin-top: 45px;
+    margin-left: 465px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 250px;
+}
+
+
+
+
+/*Footer*/
+
+footer{
+  background-color: rgba(251,252,255,1);
+  height: 60vh;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 80px;
+
+}
+
+.footer > *{
+  flex: 1 100%;
+}
+
+.footer-left{
+  margin-right: 0;
+  margin-bottom: 2em;
+  padding-left: 200px;
+}
+
+
+.footer-right h2{
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li{
+  line-height: 2em;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer-right{
+  display: flex;
+  flex-flow: row wrap;
+  padding-right: 50px;
+}
+
+.footer-right > *{
+  flex: 1 50%;
+  margin-right: 1.25em;
+
+}
+
+.box a{
+  color: black;
+  font-size: 15px;
+}
+
+.footer-left p{
+  padding-right: 20%;
+  color: black;
+  margin-top: 20px;
+}
+.socials a{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.socials a i{
+  color: #e7f2f4;
+  padding: 10px 12px;
+  font-size: 20px;
+}
+
+.socials img{
+  padding-right: 20px;
+  width: 2.5rem;
+}
+
+.box img{
+  width: 30px;
+}
+
+.send{
+  width: 30px;
+}
+
+.newsletter{
+  background-image: url("D:/Haard/Internship/task/Project/Qubly/images/send-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 0;
+  padding: 8px;
+  box-shadow: 0 0 3px #e0e0e0;
+
+}
+@media screen and (min-width: 600px){
+  .footer-right > *{
+    flex: 1;
+  }
+  .footer-left{
+    flex: 1 0px;
+  }
+  .footer-right{
+    flex: 2 0px;
+  }
+}
+
+
+
+
+
+
+
+/*WORKPLACE. HTML*/
+
+/*secion: Workplace*/
+.create-workplace-1 img{
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.create-workplace-1{
+  background-color: yellow;
+  height: 70vh;
+  position: relative;
+  z-index: 1;
+}
+.workplace-form{
+  position: absolute;
+  overflow: hidden;
+  z-index: 1000;
+  top: 10%;
+  margin-left: 600px;
+  background-color: #ccfff859;
+  padding: 20px;
+}
+.wk{
+  font-size: 20px;
+  color: green;
+}
+
+.boxes{
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.wk-submit{
+  background: #34d984;
+background-image: -webkit-linear-gradient(top, #34d984, #009dff);
+background-image: -moz-linear-gradient(top, #34d984, #009dff);
+background-image: -ms-linear-gradient(top, #34d984, #009dff);
+background-image: -o-linear-gradient(top, #34d984, #009dff);
+background-image: linear-gradient(to bottom, #34d984, #009dff);
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: Arial;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+border-width: 2px;
+margin-top: 20px;
+}
+
+.wk-submit:hover{
+  background: #00ff88;
+text-decoration: none;
+}
+
+.choose-file{
+  width: 50px;
+}
+
+.submit-btn{
+  margin-top: 20px;
+}
+.cw{
+  color: #fff;
+  font-size: 40px;
+}
